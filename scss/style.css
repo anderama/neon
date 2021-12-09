@@ -352,4 +352,89 @@ header a:hover {
   right: 8.6rem;
   z-index: 1;
 }
+
+.s-card-neon {
+  padding-top: 12.9rem;
+}
+
+.s-card-neon .left-area {
+  width: 100%;
+  max-width: 27.7rem;
+}
+
+.s-card-neon .ilustra-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 27.7rem;
+  margin-bottom: 12.9rem;
+}
+
+.s-card-neon .ilustra-mockup .circle {
+  position: absolute;
+  max-width: 37.7rem;
+  z-index: -1;
+  top: 8.7rem;
+  left: -21.4rem;
+}
+
+.s-card-neon .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .text .icon {
+  position: relative;
+}
+
+.s-card-neon .text .icon:before {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 83px;
+  top: -104px;
+  left: 50%;
+  margin-left: 2.5px;
+  background: url("../img/points.svg") no-repeat center center;
+}
+
+.s-card-neon .text .info-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .text .info-txt h3 {
+  text-align: center;
+  margin-top: 3.6rem;
+  color: #33303E;
+}
+
+.s-card-neon .text .info-txt p {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #5F5C6B;
+  opacity: 0.8;
+  margin-bottom: 2.6rem;
+}
+
+.s-card-neon .text .info-txt ul li:not(:last-child) {
+  margin-bottom: 2.6rem;
+}
 /*# sourceMappingURL=style.css.map */
