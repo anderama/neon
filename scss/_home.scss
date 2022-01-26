@@ -795,23 +795,23 @@
                     }
                 }
             }
-            .image {
-                max-width: 35.7rem;
-                height: 46.9rem;
-                img {
-                    &.mockup-01,
-                    &.mockup-02 {
-                        max-width: 16.8rem;
-                    }
-                    &.mockup-01 {
-                        bottom: initial;
-                        top: 5.8rem;
-                    }
-                    &.mockup-02 {
-                        left: initial;
-                        right: 0;
-                        top: 0;
-                    }
+        }
+        .image {
+            max-width: 35.7rem;
+            height: 46.9rem;
+            img {
+                &.mockup-01,
+                &.mockup-02 {
+                    max-width: 16.8rem;
+                }
+                &.mockup-01 {
+                    bottom: initial;
+                    top: 5.8rem;
+                }
+                &.mockup-02 {
+                    left: initial;
+                    right: 0;
+                    top: 0;
                 }
             }
         }

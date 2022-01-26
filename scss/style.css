@@ -469,6 +469,116 @@ footer .msg p {
   opacity: 0.8;
 }
 
+@media (max-width: 1050px) {
+  footer .main nav {
+    max-width: 76rem;
+  }
+}
+
+@media (max-width: 991px) {
+  footer .main {
+    width: 100%;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-bottom: 3.6rem;
+  }
+  footer .main nav {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  footer .main nav .item {
+    width: 33%;
+    margin-bottom: 5rem;
+  }
+  footer .main .btns {
+    position: absolute;
+    bottom: 14rem;
+    right: 0;
+  }
+  footer .msg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .main {
+    margin-bottom: 3rem;
+  }
+  footer .main .btns {
+    max-width: 25rem;
+  }
+  footer .main .btns button img {
+    display: none;
+  }
+  footer .main .btns button .info {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 4.3rem;
+    margin-bottom: 5.2rem;
+  }
+  footer .top .share {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 3.2rem;
+  }
+  footer .top .share ul {
+    margin: 2rem 0 0 0;
+  }
+  footer .msg p {
+    margin-left: 0;
+  }
+  footer .main nav .item {
+    width: 50%;
+    margin-bottom: 5.3rem;
+  }
+  footer .main .btns {
+    bottom: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  footer .main .btns button {
+    padding-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .main .btns button .info strong, footer .main .btns button .info span {
+    display: block;
+    text-align: center;
+  }
+}
+
 .s-hero {
   width: 100%;
   height: 78.6rem;
@@ -1522,18 +1632,18 @@ footer .msg p {
   .s-conta-digital .text ul li .icon {
     margin: 0 0 1.6rem;
   }
-  .s-conta-digital .text .image {
+  .s-conta-digital .image {
     max-width: 35.7rem;
     height: 46.9rem;
   }
-  .s-conta-digital .text .image img.mockup-01, .s-conta-digital .text .image img.mockup-02 {
+  .s-conta-digital .image img.mockup-01, .s-conta-digital .image img.mockup-02 {
     max-width: 16.8rem;
   }
-  .s-conta-digital .text .image img.mockup-01 {
+  .s-conta-digital .image img.mockup-01 {
     bottom: initial;
     top: 5.8rem;
   }
-  .s-conta-digital .text .image img.mockup-02 {
+  .s-conta-digital .image img.mockup-02 {
     left: initial;
     right: 0;
     top: 0;
